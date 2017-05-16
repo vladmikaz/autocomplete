@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Автокомплит</title>
+  <meta charset="utf-8">
+  
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" type="text/css" href="css/my.css">
+</head>
+
+<body tabindex="10000">
+ <div class="container">
+  <h1>Автокомплит v.1</h1>     
+  <div class="row">
+     <div class="col-md-6">
+      <p>Страна</p>
+      <input id="inpCountry" type="text" autocomplete="off" tabindex="1" class="drop form-control"  placeholder="Начните вводить название страны">
+      <div class="col-md-12">
+        <ul id="drop1" class="dropdown-menu ">
+        </ul>
+      </div>
+      <p class="message"></p>
+    </div>
+    <div class="col-md-6">
+      <p>Город</p>
+      <input id="inpTown" type="text" tabindex="2"  autocomplete="off" class="drop form-control " placeholder="Начните вводить название города">
+      <div class="col-md-12">
+        <ul id="drop2" class="dropdown-menu ">
+        </ul>
+      </div>
+      <p class="message"></p>
+    </div>     
+    <div class="clearfix"></div>
+    <div class="col-md-6">
+      <p>Имя</p>
+      <input id="inp3" type="text"  tabindex="3" class="form-control " placeholder="Введите имя">
+    </div>
+    <div class="col-md-6">
+      <p>Фамилия</p>
+      <input id="inp4" type="text"  tabindex="4" class="form-control " placeholder="Введите фамилию">
+    </div>
+</div>
+</div>
+
+
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script src="js/scripts.js"></script>
+<script src="js/kladr.json"></script>
+<script src="js/countries.json"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

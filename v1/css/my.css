@@ -1,0 +1,57 @@
+
+body {
+	font-size: 14px;
+	font-family:"Segoe UI";
+	line-height: 20px;
+	color: #404040;
+}
+.dropdown-menu{
+	cursor:	default;
+}
+
+input{
+	margin: 10px 0px 0px 0px;
+}
+
+input.error{
+	border:1px solid red;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px #FF3333;	
+}
+
+p.error{
+	color:red;
+	font-size: 12px;
+}
+
+
+input.warning{
+	border:1px solid #FF8400;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px #FFA545;	
+}
+
+p.warning{
+	color: #FF8400;
+	font-size: 12px;
+}
+
+.select{
+	background-color: #CCCCCC;
+}
+
+.dropdown-menu > li.active{
+	cursor:	pointer;
+}
+
+#lastLine{
+	color : grey;
+	margin: 3px 10px;
+}
+
+input.active::-webkit-input-placeholder{ 
+	color: #DCDCDC; /*изменить цвет*/
+}
+
+input.active::-moz-placeholder { 
+	color:  #DCDCDC; 
+}
+
